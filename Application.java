@@ -23,6 +23,7 @@ class Main {
   }
 }
 
+
 #feature505 changes by ana on may-2024
 public class Main {
 
@@ -40,3 +41,15 @@ public class Main {
     }
   }
 }
+
+#feature404 branch new method is added by developer vivek on may-2024
+
+public class Main {
+  public static void main(String[] args) {
+    
+    // using the sqrt() method
+    System.out.print("Square root of 4 is: " + Math.sqrt(4));
+  }
+}
+
+
