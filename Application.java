@@ -23,6 +23,25 @@ class Main {
   }
 }
 
+
+#feature505 changes by ana on may-2024
+public class Main {
+
+  // method defined
+  private static int getSquare(int x){
+    return x * x;
+  }
+
+  public static void main(String[] args) {
+    for (int i = 1; i <= 5; i++) {
+
+      // method call
+      int result = getSquare(i);
+      System.out.println("Square of " + i + " is: " + result);
+    }
+  }
+}
+
 #feature404 branch new method is added by developer vivek on may-2024
 
 public class Main {
@@ -32,4 +51,5 @@ public class Main {
     System.out.print("Square root of 4 is: " + Math.sqrt(4));
   }
 }
+
 
